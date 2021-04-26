@@ -16,5 +16,12 @@
         <item name="android:textSize">22sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
-
+    <style name="some_id">
+        <item name="android:textSize">64sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="vasya_mail_">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
 </resources>
