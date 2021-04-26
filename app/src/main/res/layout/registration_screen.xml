@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bk_cs"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/superfit"
+            android:layout_width="284dp"
+            android:layout_height="78dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="top"
+            android:text="@string/superfittxt"
+            android:textAppearance="@style/superfit" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="250dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/usernametxt"
+            android:textColor="#fff"
+            android:fontFamily="@font/montserrat_light"
+            android:textAppearance="@style/username"
+            android:backgroundTint="#FFF"
+            />
+        <EditText
+            android:id="@+id/username1"
+            android:layout_width="250dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/emailtxt"
+            android:textColor="#fff"
+            android:fontFamily="@font/montserrat_light"
+            android:textAppearance="@style/username"
+            android:backgroundTint="#FFF"
+            />
+        <EditText
+            android:id="@+id/username2"
+            android:layout_width="250dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/codetxt"
+            android:textColor="#fff"
+            android:fontFamily="@font/montserrat_light"
+            android:textAppearance="@style/username"
+            android:backgroundTint="#FFF"
+            />
+        <EditText
+            android:id="@+id/username3"
+            android:layout_width="250dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="59dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/repeat_code_txt"
+            android:textColor="#fff"
+            android:fontFamily="@font/montserrat_light"
+            android:textAppearance="@style/username"
+            android:backgroundTint="#FFF"
+            />
+        <!-- Sign In -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/sign_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/sign_uptxt"
+                android:textAppearance="@style/sign_up"
+                android:fontFamily="@font/montserrat_bold"/>
+            <!-- Vector -->
+            <View
+                android:id="@+id/vector"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/vector" />
+        </LinearLayout>
+        <!-- Sign Up -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            >
+            <!-- Vector -->
+            <View
+                android:id="@+id/vector1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/vector_b"
+                />
+            <TextView
+                android:id="@+id/sign_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/sign_intxt"
+                android:textAppearance="@style/sign_in"
+                android:gravity="top"
+                android:fontFamily="@font/montserrat_bold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
