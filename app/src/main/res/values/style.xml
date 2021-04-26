@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="superfit">
-
-        <item name="android:textSize">
-            63sp
-        </item>
-
-        <item name="android:textColor">
-            #FFFFFF
-        </item>
-
+        <item name="android:textSize">63sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="username">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="sign_in">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="sign_up">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
     </style>
 
-
-    <!-- strings.xml -->
-    <string name="superfit">
-
-SuperFit
-</string>
 </resources>
