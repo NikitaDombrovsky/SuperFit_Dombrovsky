@@ -20,14 +20,15 @@ public class one_autorization_avtivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.one_autorization_screen);
-//        getSupportActionBar().hide();
 
         final int N = 9;
         final int N1 = 10;
         ArrayList<Integer> arrayList = new ArrayList<>(N);
         Random random = new Random();
 
+
         while (arrayList.size() < N) {
+
             int i = random.nextInt(N) + 1;
             if (!arrayList.contains(i)) {
                 arrayList.add(i);
@@ -40,6 +41,5 @@ public class one_autorization_avtivity extends AppCompatActivity {
             textView.append(randomArray[c]+"\n");
 
         //
-
     }
 }
