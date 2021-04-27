@@ -19,6 +19,7 @@
     <style name="some_id">
         <item name="android:textSize">64sp</item>
         <item name="android:textColor">#FFFFFF</item>
+        <item name="fontFamily">@font/montserrat_light</item>
     </style>
     <style name="vasya_mail_">
         <item name="android:textSize">18sp</item>
