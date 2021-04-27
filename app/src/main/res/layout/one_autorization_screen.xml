@@ -47,7 +47,7 @@
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -59,6 +59,7 @@
                     android:background="@drawable/rectangle"
                     android:text="1"
                     android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:textAppearance="@style/some_id"
                     />
@@ -69,6 +70,7 @@
                     android:background="@drawable/rectangle"
                     android:text="2"
                     android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_alignParentTop="true"
                     android:textAppearance="@style/some_id"
@@ -80,6 +82,7 @@
                     android:background="@drawable/rectangle"
                     android:text="3"
                     android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_alignParentTop="true"
                     android:textAppearance="@style/some_id"
@@ -96,7 +99,8 @@
                     android:background="@drawable/rectangle"
                     android:text="4"
                     android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_alignParentTop="true"
                     android:textAppearance="@style/some_id"
@@ -108,7 +112,8 @@
                     android:background="@drawable/rectangle"
                     android:text="5"
                     android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_alignParentTop="true"
                     android:textAppearance="@style/some_id"
@@ -120,7 +125,8 @@
                     android:background="@drawable/rectangle"
                     android:text="6"
                     android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_alignParentTop="true"
                     android:textAppearance="@style/some_id"
@@ -137,7 +143,8 @@
                     android:background="@drawable/rectangle"
                     android:text="7"
                     android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_alignParentTop="true"
                     android:textAppearance="@style/some_id"
@@ -149,7 +156,8 @@
                     android:background="@drawable/rectangle"
                     android:text="8"
                     android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_alignParentTop="true"
                     android:textAppearance="@style/some_id"
@@ -161,7 +169,8 @@
                     android:background="@drawable/rectangle"
                     android:text="9"
                     android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_alignParentTop="true"
                     android:textAppearance="@style/some_id"
@@ -169,10 +178,16 @@
             </TableRow>
 
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
         </TableLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="#FFF"
+            />
 
 
     </LinearLayout>
