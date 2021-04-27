@@ -7,5 +7,6 @@
     <string name="repeat_code_txt">RepeatCode</string>
     <string name="sign_intxt">Sign In</string>
     <string name="sign_uptxt">Sign Up</string>
+    <string name="my_bodytxt">My body</string>
 
 </resources>
