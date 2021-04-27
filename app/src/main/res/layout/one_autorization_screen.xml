@@ -14,14 +14,12 @@
         tools:layout_editor_absoluteY="0dp">
 
         <!-- Vector -->
-        <View
+        <ImageButton
             android:id="@+id/vector1"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/vector_b"
             />
         <TextView
@@ -29,14 +27,14 @@
             android:layout_width="284dp"
             android:layout_height="78dp"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="0dp"
             android:fontFamily="@font/montserrat_bold"
             android:gravity="top"
             android:text="@string/superfittxt"
             android:textAppearance="@style/superfit" />
 
         <TextView
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="100dp"
             android:id="@+id/textView"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
@@ -185,7 +183,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
+
             android:textSize="15dp"
+
             android:textColor="#FFF"
             />
 
