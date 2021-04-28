@@ -7,5 +7,10 @@
     <string name="repeat_code_txt">RepeatCode</string>
     <string name="sign_intxt">Sign In</string>
     <string name="sign_uptxt">Sign Up</string>
+    <string name="my_bodytxt">My body</string>
+    <string name="detailtxt">Details</string>
+    <string name="last_exercisestxt">Last exercies</string>
+    <string name="see_alltxt">See all</string>
+    <string name="recipestxt">Recipes</string>
 
 </resources>
