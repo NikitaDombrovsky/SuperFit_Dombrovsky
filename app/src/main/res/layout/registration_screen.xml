@@ -24,69 +24,73 @@
             android:text="@string/superfittxt"
             android:textAppearance="@style/superfit" />
 
-        <EditText
-            android:id="@+id/username"
-            android:layout_width="250dp"
-            android:layout_height="42dp"
-            android:layout_marginLeft="59dp"
-            android:layout_marginTop="100dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/usernametxt"
-            android:textColor="#fff"
-            android:fontFamily="@font/montserrat_light"
-            android:textAppearance="@style/username"
-            android:backgroundTint="#FFF"
-            />
-        <EditText
-            android:id="@+id/username1"
-            android:layout_width="250dp"
-            android:layout_height="42dp"
-            android:layout_marginLeft="59dp"
-            android:layout_marginTop="10dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/emailtxt"
-            android:textColor="#fff"
-            android:fontFamily="@font/montserrat_light"
-            android:textAppearance="@style/username"
-            android:backgroundTint="#FFF"
-            />
-        <EditText
-            android:id="@+id/username2"
-            android:layout_width="250dp"
-            android:layout_height="42dp"
-            android:layout_marginLeft="59dp"
-            android:layout_marginTop="10dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/codetxt"
-            android:textColor="#fff"
-            android:fontFamily="@font/montserrat_light"
-            android:textAppearance="@style/username"
-            android:backgroundTint="#FFF"
-            />
-        <EditText
-            android:id="@+id/username3"
-            android:layout_width="250dp"
-            android:layout_height="42dp"
-            android:layout_marginLeft="59dp"
-            android:layout_marginTop="10dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/repeat_code_txt"
-            android:textColor="#fff"
-            android:fontFamily="@font/montserrat_light"
-            android:textAppearance="@style/username"
-            android:backgroundTint="#FFF"
-            />
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="145dp"
+            android:layout_gravity="center">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="#FFF"
+                android:ems="10"
+                android:fontFamily="@font/montserrat_light"
+                android:inputType="textPersonName"
+                android:text="@string/usernametxt"
+                android:textAppearance="@style/username"
+                android:textColor="#fff" />
+
+            <EditText
+                android:id="@+id/username1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#FFF"
+                android:ems="10"
+                android:fontFamily="@font/montserrat_light"
+                android:inputType="textPersonName"
+                android:text="@string/emailtxt"
+                android:textAppearance="@style/username"
+                android:textColor="#fff" />
+
+            <EditText
+                android:id="@+id/username2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#FFF"
+                android:ems="10"
+                android:fontFamily="@font/montserrat_light"
+                android:inputType="textPersonName"
+                android:text="@string/codetxt"
+                android:textAppearance="@style/username"
+                android:textColor="#fff" />
+
+            <EditText
+                android:id="@+id/username3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#FFF"
+                android:ems="10"
+                android:fontFamily="@font/montserrat_light"
+                android:inputType="textPersonName"
+                android:text="@string/repeat_code_txt"
+                android:textAppearance="@style/username"
+                android:textColor="#fff" />
+        </LinearLayout>
+
         <!-- Sign In -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:onClick="Sign_up_reg">
             <TextView
                 android:id="@+id/sign_in"
                 android:layout_width="wrap_content"
@@ -114,6 +118,7 @@
             android:orientation="horizontal"
             android:layout_gravity="center"
             android:layout_marginTop="110dp"
+            android:onClick="Sign_in_reg"
             >
             <!-- Vector -->
             <View
@@ -135,7 +140,8 @@
                 android:text="@string/sign_intxt"
                 android:textAppearance="@style/sign_in"
                 android:gravity="top"
-                android:fontFamily="@font/montserrat_bold"/>
+                android:fontFamily="@font/montserrat_bold"
+/>
 
         </LinearLayout>
     </LinearLayout>
