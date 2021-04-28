@@ -12,5 +12,6 @@
     <string name="last_exercisestxt">Last exercies</string>
     <string name="see_alltxt">See all</string>
     <string name="recipestxt">Recipes</string>
+    <string name="sign_outtxt">Sign Out</string>
 
 </resources>
