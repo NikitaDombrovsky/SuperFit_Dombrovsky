@@ -9,13 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SuperFit">
-        <activity android:name=".splash_activity">
+        <activity android:name=".autorization_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".one_autorization_avtivity"/>
+        <activity android:name=".main_activity"/>
+        <activity android:name=".registration_activity"/>
     </application>
 
 </manifest>
