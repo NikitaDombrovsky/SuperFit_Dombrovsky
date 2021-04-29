@@ -39,7 +39,8 @@
                 android:ems="10"
                 android:fontFamily="@font/montserrat_light"
                 android:inputType="textPersonName"
-                android:text="@string/usernametxt"
+                android:hint="@string/usernametxt"
+                android:textColorHint="#FFF"
                 android:textAppearance="@style/username"
                 android:textColor="#fff" />
 
@@ -52,7 +53,8 @@
                 android:ems="10"
                 android:fontFamily="@font/montserrat_light"
                 android:inputType="textPersonName"
-                android:text="@string/emailtxt"
+                android:hint="@string/emailtxt"
+                android:textColorHint="#FFF"
                 android:textAppearance="@style/username"
                 android:textColor="#fff" />
 
@@ -65,7 +67,8 @@
                 android:ems="10"
                 android:fontFamily="@font/montserrat_light"
                 android:inputType="textPersonName"
-                android:text="@string/codetxt"
+                android:hint="@string/codetxt"
+                android:textColorHint="#FFF"
                 android:textAppearance="@style/username"
                 android:textColor="#fff" />
 
@@ -78,7 +81,8 @@
                 android:ems="10"
                 android:fontFamily="@font/montserrat_light"
                 android:inputType="textPersonName"
-                android:text="@string/repeat_code_txt"
+                android:hint="@string/repeat_code_txt"
+                android:textColorHint="#FFF"
                 android:textAppearance="@style/username"
                 android:textColor="#fff" />
         </LinearLayout>

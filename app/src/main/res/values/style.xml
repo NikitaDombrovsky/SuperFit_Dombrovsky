@@ -7,6 +7,7 @@
     <style name="username">
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">#FFFFFF</item>
+        <item name="hintTextColor">#FFFFFF</item>
     </style>
     <style name="sign_in">
         <item name="android:textSize">22sp</item>
