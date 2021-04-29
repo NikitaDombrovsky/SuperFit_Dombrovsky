@@ -13,5 +13,6 @@
     <string name="see_alltxt">See all</string>
     <string name="recipestxt">Recipes</string>
     <string name="sign_outtxt">Sign Out</string>
+    <string name="searchtxt">Search...</string>
 
 </resources>
