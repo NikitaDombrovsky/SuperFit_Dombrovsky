@@ -12,6 +12,7 @@ public class autorization_activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.autorization_screen);
+
     }
     public void Sign_in_aut(View view){
         Intent intent = new Intent (autorization_activity.this, one_autorization_avtivity.class );
