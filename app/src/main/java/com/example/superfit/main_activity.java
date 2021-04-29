@@ -17,4 +17,8 @@ public class main_activity extends AppCompatActivity {
         Intent intent = new Intent(main_activity.this, autorization_activity.class);
         startActivity(intent);
     }
+    public void Recipes(View view){
+        Intent intent = new Intent (main_activity.this, recipes_activity.class );
+        startActivity(intent);
+    }
 }

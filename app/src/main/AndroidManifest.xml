@@ -19,6 +19,7 @@
         <activity android:name=".one_autorization_avtivity"/>
         <activity android:name=".main_activity"/>
         <activity android:name=".registration_activity"/>
+        <activity android:name=".recipes_activity"/>
     </application>
 
 </manifest>

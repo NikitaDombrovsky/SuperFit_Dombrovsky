@@ -19,15 +19,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:src="@drawable/vector_b"/>
+                android:src="@drawable/vector_b"
+                android:onClick="onBACK_reciples"/>
             <TextView
+                android:layout_marginLeft="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/recipestxt"
+                android:fontFamily="@font/montserrat_bold"
                 android:textColor="@color/white"
                 android:textSize="24sp"/>
         </LinearLayout>
         <RelativeLayout
+            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/search_field">
@@ -35,17 +39,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="7dp"
                 android:hint="@string/searchtxt"
                 android:textAppearance="@style/search"
                 android:paddingHorizontal="16dp"
                 android:textColorHint="#666666"
+                android:background="@null"
 />
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="22dp"
                 android:layout_marginLeft="2dp"
-                android:layout_marginTop="13dp"
+                android:layout_marginTop="8dp"
                 android:background="@drawable/s" />
         </RelativeLayout>
 
@@ -60,25 +64,25 @@
                 android:orientation="horizontal">
                 <RadioButton
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:button="@drawable/balanced_pressed_btn"/>
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:button="@drawable/balanced_button"/>
                 <RadioButton
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:button="@drawable/high_fiber_btn"/>
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:button="@drawable/high_fiber_button"/>
                 <RadioButton
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_weight="0"
-                    android:button="@drawable/high_protein_btn"/>
+                    android:button="@drawable/high_protein_button"/>
             </RadioGroup>
 
         </LinearLayout>
+
     </LinearLayout>
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </ListView>
+        android:layout_height="match_parent"></ListView>
 </LinearLayout>
